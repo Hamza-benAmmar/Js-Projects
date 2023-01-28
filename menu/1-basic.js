@@ -1,4 +1,4 @@
-const menu = [
+/*const menu = [
   {
     id: 1,
     title: "buttermilk pancakes",
@@ -71,7 +71,7 @@ const menu = [
     img: "./images/item-9.jpeg",
     desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
   },
-];
+];*/
 
 const sectionCenter = document.querySelector(".section-center");
 
@@ -93,7 +93,7 @@ window.addEventListener("DOMContentLoaded", function () {
         </article>`;
   });
   displayMenu = displayMenu.join("");
-  console.log(displayMenu);
+  //console.log(displayMenu);
 
   sectionCenter.innerHTML = displayMenu;
 });
