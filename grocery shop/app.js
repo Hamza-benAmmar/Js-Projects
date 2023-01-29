@@ -7,7 +7,7 @@ const submitBtn=document.querySelector(".submit-btn")
 const alert=document.querySelector(".alert")
 const clearbtn=document.querySelector(".clear-btn")
 let editElement;
-let editFlag=false;
+let editFlag=false; //when false , it means we are not editing
 let editID="";
 form.addEventListener('submit',addItem)
 clearbtn.addEventListener('click',clearItems)
